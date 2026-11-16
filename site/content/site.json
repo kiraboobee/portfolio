@@ -1,0 +1,314 @@
+{
+  "name": "Kira Huang",
+  "nickname": "kiraboobee",
+  "nameZh": "黃煜晏",
+  "tagline": "生物、醫學與科學概念的視覺化，以及繪畫、動畫與遊戲。",
+  "hint": "動動滑鼠，企鵝寶寶會跟著你走。",
+  "hintTouch": "點一下畫面，企鵝寶寶會走過去。",
+  "sections": [
+    {
+      "slug": "about",
+      "label": "About",
+      "type": "about",
+      "intro": "",
+      "gap": false
+    },
+    {
+      "slug": "cv",
+      "label": "CV",
+      "type": "cv",
+      "intro": "",
+      "gap": false
+    },
+    {
+      "slug": "painting",
+      "label": "Painting",
+      "type": "gallery",
+      "intro": "鉛筆、粉蠟筆等手繪媒材的生物藝術創作。",
+      "gap": true
+    },
+    {
+      "slug": "2d",
+      "label": "2D",
+      "type": "gallery",
+      "intro": "電繪、科學圖示、平面設計與攝影。",
+      "gap": false
+    },
+    {
+      "slug": "3d",
+      "label": "3D",
+      "type": "gallery",
+      "intro": "3D 建模、場景與分子結構視覺化。",
+      "gap": false
+    },
+    {
+      "slug": "animation",
+      "label": "Animation",
+      "type": "gallery",
+      "intro": "手繪動畫與影像作品。",
+      "gap": false
+    },
+    {
+      "slug": "game-design",
+      "label": "Game Design",
+      "type": "gallery",
+      "intro": "遊戲企劃、關卡設計與原型。",
+      "gap": false
+    },
+    {
+      "slug": "contact",
+      "label": "Contact",
+      "type": "contact",
+      "intro": "合作、委託或想聊聊作品，都歡迎來信。",
+      "gap": true
+    }
+  ],
+  "about": {
+    "portrait": "media/2d/penguin.jpg",
+    "paragraphs": [
+      "我是 Kira Huang（黃煜晏），也用 kiraboobee 這個名字創作。目前就讀國立臺北藝術大學新媒體藝術學系碩士班。",
+      "之前就讀於國立清華大學生命科學系，並修習藝術跨領域學分學程，修習課程包含藝術史、數位策展之人文科技創新連結、藝術與社會、媒體藝術、設計繪畫、公共藝術賞析、歌劇欣賞等。",
+      "過往作品主要圍繞生物、醫學、科學概念的視覺化與數位化。大學期間也製作過 3D Blender 角色動畫教學、Unity 2D 遊戲，以及 Unreal Engine 地形與場景建構。",
+      "本身對遊戲及動畫有興趣，未來希望能朝 2D 動畫、3D 動畫、AI 生成動畫、互動影像、遊戲等領域發展。"
+    ]
+  },
+  "cv": [
+    {
+      "title": "Education",
+      "items": [
+        {
+          "when": "2026–",
+          "what": "國立臺北藝術大學 新媒體藝術學系 碩士班",
+          "note": ""
+        },
+        {
+          "when": "2022–2026",
+          "what": "國立清華大學 生命科學系、藝術跨領域學分學程",
+          "note": ""
+        },
+        {
+          "when": "2021–2022",
+          "what": "國立宜蘭大學 生物技術與動物科學系",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "title": "Experience",
+      "items": [
+        {
+          "when": "2025",
+          "what": "國立清華大學 梅竹神話學數位展覽 策展設計者",
+          "note": ""
+        },
+        {
+          "when": "2023–2024",
+          "what": "國立清華大學 王雯靜特聘教授實驗室 大專生實習",
+          "note": ""
+        },
+        {
+          "when": "2023",
+          "what": "國立清華大學 國際遺傳工程機器設計競賽（iGEM）人類實踐組 組長",
+          "note": ""
+        },
+        {
+          "when": "",
+          "what": "國立清華大學 × 國立陽明交通大學 十系聯合耶誕舞會 舞蹈表演者",
+          "note": ""
+        },
+        {
+          "when": "",
+          "what": "國立清華大學 男子籃球校隊 經理暨社群經營與行銷",
+          "note": ""
+        },
+        {
+          "when": "",
+          "what": "國立清華大學 吉他社社員、擊劍社社員、調酒社社員、系女子籃球隊員",
+          "note": ""
+        },
+        {
+          "when": "",
+          "what": "國立宜蘭大學 系排球隊員、勁舞社社員、系女子籃球隊員",
+          "note": ""
+        },
+        {
+          "when": "",
+          "what": "國立宜蘭大學 生物技術與動物科學系甲班 副班代",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "title": "Awards",
+      "items": [
+        {
+          "when": "2025",
+          "what": "全國大專院校商業個案大賽（ATCC）獲選初賽",
+          "note": ""
+        },
+        {
+          "when": "2025",
+          "what": "國立清華大學 藝術跨領域學分學程 修習完成",
+          "note": ""
+        },
+        {
+          "when": "2024",
+          "what": "國立清華大學 通識教育中心優秀學生作品競賽 作品獲獎",
+          "note": ""
+        },
+        {
+          "when": "2024",
+          "what": "中研院基因體研究中心 × 哈佛青年健康科學研習營 研究專題演講",
+          "note": ""
+        },
+        {
+          "when": "2023",
+          "what": "國際遺傳工程機器設計競賽（iGEM）國際金牌",
+          "note": ""
+        },
+        {
+          "when": "2023",
+          "what": "財團法人中技社獎學金暨 AI 創意競賽 獎學金暨競賽獲獎",
+          "note": ""
+        },
+        {
+          "when": "2023",
+          "what": "第一學期教育部補助大學校院學生出國參加國際性學術技藝能競賽 獎學金",
+          "note": ""
+        },
+        {
+          "when": "2023",
+          "what": "小夢想大志氣追夢計畫 進入決賽",
+          "note": ""
+        },
+        {
+          "when": "2023",
+          "what": "國立清華大學 逐夢獎學金",
+          "note": ""
+        },
+        {
+          "when": "2023",
+          "what": "國立清華大學 學生國際訪問獎 獎學金",
+          "note": ""
+        },
+        {
+          "when": "2023",
+          "what": "國立清華大學 第二次績優社團 獎學金",
+          "note": ""
+        },
+        {
+          "when": "2022",
+          "what": "國立宜蘭大學 第一學年書卷獎 班級排名一",
+          "note": ""
+        },
+        {
+          "when": "2021",
+          "what": "多益 TOEIC 分數 830",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "title": "Activities",
+      "items": [
+        {
+          "when": "2025",
+          "what": "清華大學數位展覽 梅竹神話學（Mythology of MeiChu Games）",
+          "note": ""
+        },
+        {
+          "when": "2025",
+          "what": "AI 當前的轉型與創新 × 創造品牌優勢 × 青年影響力 企業領袖論壇",
+          "note": ""
+        },
+        {
+          "when": "2025",
+          "what": "AI 當前的衝擊與機會 × 企業社會責任 × 未來人才 企業領袖論壇",
+          "note": ""
+        },
+        {
+          "when": "2025",
+          "what": "生成式 AI 創新應用 實戰工作坊",
+          "note": ""
+        },
+        {
+          "when": "2025",
+          "what": "全國大專院校商業個案大賽（ATCC）",
+          "note": ""
+        },
+        {
+          "when": "2024",
+          "what": "中研院基因體研究中心 × 哈佛 青年健康科學研習營",
+          "note": ""
+        },
+        {
+          "when": "2023",
+          "what": "國際遺傳工程機器設計競賽（iGEM）",
+          "note": ""
+        },
+        {
+          "when": "2023",
+          "what": "台灣駐法國代表處 參訪及交流會",
+          "note": ""
+        },
+        {
+          "when": "2023",
+          "what": "國立陽明交通大學 iGEM 團隊清交兩校聯合交流會",
+          "note": ""
+        },
+        {
+          "when": "2023",
+          "what": "中國 iGEM 團隊 三隊聯合腫瘤科普線上交流會",
+          "note": ""
+        },
+        {
+          "when": "2023",
+          "what": "財團法人中技社 獎學金暨 AI 創意競賽",
+          "note": ""
+        },
+        {
+          "when": "2022",
+          "what": "瑪莉居禮科學營 哈佛大學教授專題演講學員交流會",
+          "note": ""
+        },
+        {
+          "when": "2022",
+          "what": "中央警察大學 犯罪偵查與鑑識科學研討會",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "items": [
+        {
+          "when": "繪圖",
+          "what": "Procreate、Goodnotes、鉛筆素描、粉蠟筆",
+          "note": ""
+        },
+        {
+          "when": "3D／遊戲",
+          "what": "Blender、Unity、Unreal Engine、PyMOL",
+          "note": ""
+        },
+        {
+          "when": "語言",
+          "what": "中文、英文（TOEIC 830）",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "contact": [
+    {
+      "k": "Email",
+      "v": "kiraeatbanana17@gmail.com",
+      "href": "mailto:kiraeatbanana17@gmail.com"
+    },
+    {
+      "k": "ArtStation",
+      "v": "artstation.com/kiraboobee",
+      "href": "https://www.artstation.com/kiraboobee"
+    }
+  ]
+}

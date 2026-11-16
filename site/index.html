@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kira Huang Portfolio</title>
+<meta name="description" content="Kira Huang（黃煜晏，kiraboobee）的線上作品集：繪畫、2D、3D、動畫與遊戲設計。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=Noto+Sans+TC:wght@400;500&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="is-home">
+
+<a class="skip" href="#view">跳到主要內容</a>
+
+<!-- 雪花與企鵝腳印畫在這張畫布上 -->
+<canvas id="snow" aria-hidden="true"></canvas>
+
+<!-- 冰山與雪地場景（首頁放大，其他頁面縮成底部一條） -->
+<div class="scene" aria-hidden="true">
+  <svg viewBox="0 0 1440 520" preserveAspectRatio="xMidYMax slice">
+    <g class="layer" data-depth="6">
+      <polygon fill="#E3EEEC" points="90,330 170,205 215,250 262,168 330,330"/>
+      <polygon fill="#D3E5E3" points="262,168 330,330 250,330 215,250"/>
+      <polygon fill="#E3EEEC" points="1010,330 1085,232 1128,270 1190,190 1262,330"/>
+      <polygon fill="#D3E5E3" points="1190,190 1262,330 1170,330 1128,270"/>
+    </g>
+    <rect class="sea" x="-60" y="326" width="1560" height="120" fill="#CFE4E2"/>
+    <g class="layer" data-depth="14">
+      <g class="berg bob-a">
+        <polygon fill="#F4F8F6" points="520,348 590,170 648,236 700,96 792,250 838,348"/>
+        <polygon fill="#BBD8D7" points="700,96 792,250 838,348 742,348 716,236"/>
+        <polygon fill="#DDECEA" points="590,170 648,236 716,236 742,348 600,348"/>
+        <polygon fill="#B9D6D5" opacity=".55" points="520,348 838,348 792,398 700,440 600,410 548,380"/>
+      </g>
+      <g class="berg bob-b">
+        <polygon fill="#F4F8F6" points="1250,350 1300,262 1338,292 1372,226 1436,350"/>
+        <polygon fill="#BBD8D7" points="1372,226 1436,350 1368,350 1338,292"/>
+        <polygon fill="#B9D6D5" opacity=".5" points="1250,350 1436,350 1396,384 1320,396 1270,372"/>
+      </g>
+      <g class="berg bob-c">
+        <polygon fill="#F4F8F6" points="40,352 78,300 112,320 146,270 196,352"/>
+        <polygon fill="#BBD8D7" points="146,270 196,352 150,352 112,320"/>
+        <polygon fill="#B9D6D5" opacity=".5" points="40,352 196,352 168,376 104,384 60,368"/>
+      </g>
+    </g>
+    <g class="layer" data-depth="26">
+      <path fill="#FBFAF5" d="M-60,430 C120,392 300,412 470,424 C660,438 800,396 990,404 C1180,412 1320,438 1500,410 L1500,540 L-60,540 Z"/>
+      <path fill="none" stroke="#DCE9E6" stroke-width="2" d="M-60,430 C120,392 300,412 470,424 C660,438 800,396 990,404 C1180,412 1320,438 1500,410"/>
+      <ellipse fill="#EEF3EE" cx="330" cy="470" rx="150" ry="10"/>
+      <ellipse fill="#EEF3EE" cx="1080" cy="462" rx="190" ry="12"/>
+    </g>
+  </svg>
+</div>
+
+<header class="side">
+  <a class="brand" href="#home" data-route="home"></a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="nav">選單</button>
+  <nav id="nav" aria-label="主要導覽"></nav>
+</header>
+
+<main id="view" tabindex="-1"></main>
+
+<!-- 作品詳細內容視窗 -->
+<dialog id="work" aria-label="作品詳細內容">
+  <div class="work-bar">
+    <button class="w-prev" type="button">上一件</button>
+    <button class="w-next" type="button">下一件</button>
+    <button class="w-close" type="button">關閉</button>
+  </div>
+  <div class="work-body"></div>
+</dialog>
+
+<!-- 跟著游標走的藍綠色企鵝寶寶 -->
+<div id="penguin" role="img" aria-label="企鵝寶寶">
+  <span class="peng-say"></span>
+  <div class="peng-flip">
+    <svg viewBox="0 0 80 92" width="64" height="74">
+      <ellipse class="foot foot-l" cx="30" cy="86" rx="8" ry="4.2" fill="#F2A65A"/>
+      <ellipse class="foot foot-r" cx="50" cy="86" rx="8" ry="4.2" fill="#F2A65A"/>
+      <g class="peng-body">
+        <ellipse cx="14" cy="58" rx="6" ry="15" fill="#2E8C8A" transform="rotate(14 14 58)"/>
+        <ellipse cx="66" cy="58" rx="6" ry="15" fill="#2E8C8A" transform="rotate(-14 66 58)"/>
+        <ellipse cx="40" cy="58" rx="24" ry="27" fill="#45ADA8"/>
+        <ellipse cx="40" cy="63" rx="16" ry="19" fill="#FBF7EC"/>
+        <circle cx="40" cy="28" r="21" fill="#45ADA8"/>
+        <path d="M37 8 q3 -8 5 0 q4 -5 3 2" fill="none" stroke="#45ADA8" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="32" cy="31" r="10" fill="#FBF7EC"/>
+        <circle cx="48" cy="31" r="10" fill="#FBF7EC"/>
+        <ellipse cx="40" cy="36" rx="11" ry="8" fill="#FBF7EC"/>
+        <circle cx="27" cy="36" r="3.4" fill="#F6C3B4" opacity=".7"/>
+        <circle cx="53" cy="36" r="3.4" fill="#F6C3B4" opacity=".7"/>
+        <g class="eyes" fill="#17323A">
+          <circle cx="32" cy="29" r="2.8"/><circle cx="48" cy="29" r="2.8"/>
+        </g>
+        <circle cx="33" cy="28" r=".9" fill="#fff"/><circle cx="49" cy="28" r=".9" fill="#fff"/>
+        <path d="M35.5 34 Q40 41 44.5 34 Q40 31.5 35.5 34Z" fill="#F2A65A"/>
+      </g>
+    </svg>
+  </div>
+</div>
+
+<!-- 文字與作品內容放在 content/site.json 與 content/works.json，由 app.js 讀取 -->
+<script src="assets/js/app.js"></script>
+<script src="assets/js/penguin.js"></script>
+</body>
+</html>

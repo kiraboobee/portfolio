@@ -1,0 +1,809 @@
+{
+  "works": [
+    {
+      "id": "radula",
+      "section": "painting",
+      "title": "螺之齒舌 Radula",
+      "date": "2024",
+      "medium": "粉蠟筆 Oil pastel",
+      "size": "8K",
+      "tags": [
+        "生物藝術",
+        "顯微視角"
+      ],
+      "description": "生物藝術創作系列。聚焦在解剖後、顯微鏡下的微觀生命表現。",
+      "cover": "media/painting/radula.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/painting/radula.jpg",
+          "id": "",
+          "caption": ""
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "golden-thread",
+      "section": "painting",
+      "title": "金線鰱 Golden Thread",
+      "date": "2022",
+      "medium": "鉛筆素描 Pencil sketch",
+      "size": "A4",
+      "tags": [
+        "生物藝術",
+        "魚類"
+      ],
+      "description": "盤中之飧的常客：金線鰱、吳郭魚。\n從日常餐食取景，以生物學角度分析母親最常烹飪的魚類。透過描繪，認識金線鰱及吳郭魚的生物特徵。",
+      "cover": "media/painting/golden-thread.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/painting/golden-thread.jpg",
+          "id": "",
+          "caption": ""
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "tilapia",
+      "section": "painting",
+      "title": "吳郭魚 Tilapia",
+      "date": "2022",
+      "medium": "鉛筆素描 Pencil sketch",
+      "size": "A4",
+      "tags": [
+        "生物藝術",
+        "魚類"
+      ],
+      "description": "盤中之飧的常客：金線鰱、吳郭魚。\n從日常餐食取景，以生物學角度分析母親最常烹飪的魚類。",
+      "cover": "media/painting/tilapia.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/painting/tilapia.jpg",
+          "id": "",
+          "caption": ""
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "earthworm",
+      "section": "painting",
+      "title": "蚯蚓（半解剖視角）Earthworm",
+      "date": "2022",
+      "medium": "鉛筆素描 Pencil sketch",
+      "size": "A4",
+      "tags": [
+        "生物藝術",
+        "解剖"
+      ],
+      "description": "從直觀到微觀的世界：未解剖、半解剖及解剖視角。\n半解剖式的蚯蚓，可見肚破腸不流的藝術。",
+      "cover": "media/painting/earthworm.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/painting/earthworm.jpg",
+          "id": "",
+          "caption": ""
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "grasshopper",
+      "section": "painting",
+      "title": "蚱蜢 Grasshopper",
+      "date": "2022",
+      "medium": "鉛筆素描 Pencil sketch",
+      "size": "A4",
+      "tags": [
+        "生物藝術",
+        "昆蟲"
+      ],
+      "description": "從直觀到微觀的世界：未解剖、半解剖及解剖視角。\n未解剖的蚱蜢，清晰可見其背部紋路。",
+      "cover": "media/painting/grasshopper.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/painting/grasshopper.jpg",
+          "id": "",
+          "caption": ""
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "atom-universe",
+      "section": "2d",
+      "title": "原子宇宙",
+      "date": "2025",
+      "medium": "Procreate",
+      "size": "2048 × 2048 px",
+      "tags": [
+        "電繪",
+        "系列"
+      ],
+      "description": "Muriel Rukeyser once said “the universe is made of stories, not of atoms.”\n但是！在我的藝術宇宙裡，生命的要素是由原子組成的。",
+      "cover": "media/2d/atom-sun.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/2d/atom-sun.jpg",
+          "id": "",
+          "caption": "Sun, burning sun"
+        },
+        {
+          "type": "image",
+          "file": "media/2d/atom-soil.jpg",
+          "id": "",
+          "caption": "Soil, with worm"
+        },
+        {
+          "type": "image",
+          "file": "media/2d/atom-water.jpg",
+          "id": "",
+          "caption": "Water, flowing water"
+        },
+        {
+          "type": "image",
+          "file": "media/2d/atom-light.jpg",
+          "id": "",
+          "caption": "Light, with hope"
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "memory-spray",
+      "section": "2d",
+      "title": "記憶中的噴漆系列",
+      "date": "2024",
+      "medium": "Procreate",
+      "size": "2360 × 1640 px",
+      "tags": [
+        "電繪",
+        "系列"
+      ],
+      "description": "記憶中的事情…總是模糊的。不過有時候看得模糊，比看得清晰來得快樂呢？\n\n記憶中的小丑：以噴漆畫筆來表示記憶中隱約可見，但卻又模糊不清的意象。除了紅色的鼻子外，有些時候人們也會自稱小丑，表示自己在某些時刻的醜態，像非人模樣似的，不清晰又四不像的五官，像記憶中的小丑。\n\n記憶中的汙霉：汙霉總是在各種地方出現，無論是多麼炫彩耀眼的角落，只要不經常地關注、清掃，再光彩奪目都仍舊可以生出汙霉。記憶中的汙霉是無處不在的，為繽紛的世界添增一點汙霉味。\n\n記憶中的愛與情：記憶中的我，有些時候會認為他人的愛是一種強迫與勒索，急著闖入我的世界。隨著年齡增長，漸漸發覺，每個人表達愛與情的方式不同。也許他們只是想用自己的方式表達關心，看著不討喜，但也有溫情流露的一面。",
+      "cover": "media/2d/memory-clown.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/2d/memory-clown.jpg",
+          "id": "",
+          "caption": "記憶中的小丑"
+        },
+        {
+          "type": "image",
+          "file": "media/2d/memory-mold.jpg",
+          "id": "",
+          "caption": "記憶中的汙霉"
+        },
+        {
+          "type": "image",
+          "file": "media/2d/memory-love.jpg",
+          "id": "",
+          "caption": "記憶中的愛與情"
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "penguin-painting",
+      "section": "2d",
+      "title": "Penguin painting",
+      "date": "2024",
+      "medium": "Procreate",
+      "size": "2360 × 1640 px",
+      "tags": [
+        "電繪",
+        "動物"
+      ],
+      "description": "",
+      "cover": "media/2d/penguin.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/2d/penguin.jpg",
+          "id": "",
+          "caption": ""
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "ieee-cover",
+      "section": "2d",
+      "title": "IEEE Electron Device Letters 期刊封面設計",
+      "date": "2024",
+      "medium": "Procreate",
+      "size": "1823 × 2360 px",
+      "tags": [
+        "科學視覺化",
+        "委託",
+        "封面設計"
+      ],
+      "description": "學術期刊（IEEE）封面設計，委託創作。2024 年 8 月號，Volume 45, Number 8。",
+      "cover": "media/2d/ieee-cover.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/2d/ieee-cover.jpg",
+          "id": "",
+          "caption": ""
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "pcrd",
+      "section": "2d",
+      "title": "側向流式快篩儀 PCRD lateral flow cassette",
+      "date": "2023",
+      "medium": "Procreate",
+      "size": "2048 × 2048 px",
+      "tags": [
+        "科學視覺化",
+        "iGEM"
+      ],
+      "description": "以平面分子結合 3D 面板的形式凸顯獨創性，讓觀者可以透過此圖了解快篩儀的分子結合過程及流向，並以圖表配合圖示解讀。\n\n研究內容簡介：若檢體（RT-RPA Product）中帶有特定大腸癌分子標記物（hsa_circ_0004771 和 hsa_circ_0101802），則其產物會與測試線上的抗 DIG 抗體及抗 FAM 抗體結合，形成三條線（兩條測試線，一條控制線）。若檢體中無法擴增出特定大腸癌分子標記物，則呈現單線（控制線）。",
+      "cover": "media/2d/pcrd.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/2d/pcrd.jpg",
+          "id": "",
+          "caption": ""
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "panda-team",
+      "section": "2d",
+      "title": "熊貓隊！出征！ Go! Go! Panda Team!",
+      "date": "2023",
+      "medium": "Procreate",
+      "size": "1280 × 1280 px／5 × 5 cm",
+      "tags": [
+        "iGEM",
+        "插畫",
+        "文宣品"
+      ],
+      "description": "iGEM 團隊文宣品設計。水彩感的 NTHU 字樣背景，帶出團隊名稱。清華大學代表之吉祥物，熊貓為主軸。發黃的牙齒用力啃食竹子，表達必勝決心。",
+      "cover": "media/2d/panda.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/2d/panda.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/2d/panda-sticker-1.jpg",
+          "id": "",
+          "caption": "水壺裝飾貼紙"
+        },
+        {
+          "type": "image",
+          "file": "media/2d/panda-sticker-2.jpg",
+          "id": "",
+          "caption": "首飾盒貼紙"
+        },
+        {
+          "type": "image",
+          "file": "media/2d/panda-sticker-3.jpg",
+          "id": "",
+          "caption": "專屬筆電貼紙"
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "igem-logo",
+      "section": "2d",
+      "title": "2023 NTHU-Taiwan iGEM Team Logo",
+      "date": "2023",
+      "medium": "Procreate",
+      "size": "1280 × 1280 px",
+      "tags": [
+        "iGEM",
+        "Logo 設計"
+      ],
+      "description": "雙人共同協作，負責創意發想、圖像設計、繪製。\n設計理念：以紫色及 NTHU 字樣，代表清華團隊。iGEM 象徵團隊核心，以圓形取代 i 字母，有全球參與之寓意。參與年度 2023；以鋸齒狀外型表示大腸癌病毒，呼應主題。",
+      "cover": "media/2d/igem-logo.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/2d/igem-logo.jpg",
+          "id": "",
+          "caption": ""
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "igem-web",
+      "section": "2d",
+      "title": "NTHU Taiwan 網頁頁面設計",
+      "date": "2023",
+      "medium": "Web Design, UI / UX",
+      "size": "",
+      "tags": [
+        "iGEM",
+        "網頁設計",
+        "團體"
+      ],
+      "description": "17 人團隊，分組合作。負責網頁前端頁面設計、創意及動畫指導、iGEM Map 發想、國際隊伍合作交流、建構 iGEM Map 互動網等。\n成果：網頁觸及全球約 30 多個國際隊伍參與交流合作，獲得世界金牌。\n網頁可移動式 iGEM Map，建構線上國際互動交流網。",
+      "cover": "media/2d/web-3.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/2d/web-3.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/2d/web-1.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/2d/web-2.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/2d/web-4.jpg",
+          "id": "",
+          "caption": "iGEM Map"
+        },
+        {
+          "type": "image",
+          "file": "media/2d/web-5.jpg",
+          "id": "",
+          "caption": "iGEM Map"
+        }
+      ],
+      "links": [
+        {
+          "label": "網頁網址",
+          "url": "https://2023.igem.wiki/nthu-taiwan/collaborations"
+        }
+      ]
+    },
+    {
+      "id": "meichu",
+      "section": "2d",
+      "title": "數位展覽：梅竹神話學 Mythology of MeiChu Games",
+      "date": "2025",
+      "medium": "數位策展設計 Digital Exhibition Design",
+      "size": "",
+      "tags": [
+        "數位策展",
+        "團體"
+      ],
+      "description": "團體規模 8 人。負責策展主要流程設計、總覽內容規劃、展區主視覺設計，發想梅竹神話時間軸、繪製展版，帶領團隊完成展出。\n成果：線上點閱及參展人數超過 100 人。",
+      "cover": "media/2d/meichu-1.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/2d/meichu-1.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/2d/meichu-2.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/2d/meichu-3.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/2d/meichu-4.jpg",
+          "id": "",
+          "caption": ""
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "heart-life",
+      "section": "2d",
+      "title": "心・生",
+      "date": "2022-2025",
+      "medium": "攝影 Photography",
+      "size": "",
+      "tags": [
+        "攝影",
+        "系列"
+      ],
+      "description": "從 2022 至今，歷經 4 年的生活觀察，用攝影紀錄以心為主，日常中不經意的各種心・生。",
+      "cover": "media/2d/heart-4.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/2d/heart-1.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/2d/heart-2.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/2d/heart-3.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/2d/heart-4.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/2d/heart-5.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/2d/heart-6.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/2d/heart-7.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/2d/heart-8.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/2d/heart-9.jpg",
+          "id": "",
+          "caption": ""
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "blender-tutorial",
+      "section": "3d",
+      "title": "3D Blender 角色動畫教學",
+      "date": "",
+      "medium": "Blender",
+      "size": "",
+      "tags": [
+        "教學",
+        "角色動畫"
+      ],
+      "description": "大學期間製作的 3D Blender 角色動畫教學（書面 Canva 教學）。",
+      "cover": "",
+      "media": [],
+      "links": [
+        {
+          "label": "查看教學（Canva）",
+          "url": "https://reurl.cc/p8eW2r"
+        }
+      ]
+    },
+    {
+      "id": "unreal-terrain",
+      "section": "3d",
+      "title": "Unreal Engine 地形與場景建構",
+      "date": "",
+      "medium": "Unreal Engine",
+      "size": "",
+      "tags": [
+        "場景",
+        "地形"
+      ],
+      "description": "大學期間製作的 Unreal Engine 地形與場景建構。",
+      "cover": "",
+      "media": [],
+      "links": [
+        {
+          "label": "查看場景截圖（Canva）",
+          "url": "https://reurl.cc/xeVO8N"
+        }
+      ]
+    },
+    {
+      "id": "4pkl",
+      "section": "3d",
+      "title": "4PKL 四聚體 3D 分子結構動畫",
+      "date": "2023",
+      "medium": "PyMOL、Clipchamp",
+      "size": "1920 × 1080 px",
+      "tags": [
+        "科學視覺化",
+        "分子結構"
+      ],
+      "description": "Identify the interaction and interface of tetramer 4PKL\n\n設計理念：使用 PyMOL（分子三維結構顯示軟體）及 Clipchamp 軟體，製作 3D 分子結構動畫，讓觀眾可以輕易理解 4PKL 四聚體分子間的鍵結與分子間互動。透過不同顏色標示區域界面與序列，了解四聚體結構和特性。",
+      "cover": "media/3d/4pkl-5.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/3d/4pkl-1.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/3d/4pkl-2.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/3d/4pkl-3.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/3d/4pkl-4.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/3d/4pkl-5.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/3d/4pkl-6.jpg",
+          "id": "",
+          "caption": ""
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "my-marathon",
+      "section": "animation",
+      "title": "重要的不是結果，是過程：人生馬拉松 My Marathon",
+      "date": "2025",
+      "medium": "手繪動畫 Procreate",
+      "size": "",
+      "tags": [
+        "手繪動畫",
+        "實驗"
+      ],
+      "description": "這是關於人生金句「重要的不是結果，是過程」的一場媒體藝術課堂實驗，藉由課堂展示手繪動畫的創作過程，取代直接的動畫放映，表達人生中「重要的不是結果，是過程」的核心理念。\n\n從手繪動畫初學者的角度，講述身為 22 歲青年的人生階段。一路追尋不同課業上的成績與目標，才發現到頭來其實過程才是最值得回味的，因受啟發而製作了手繪動畫的過程，並以展示過程與圖層，替代動畫放映，講述這期間遇到的人生挑戰和風景。\n\n待精進的動畫技巧和刻意未完成的作品，就像 22 歲青年的人生一樣，還在探索，還在進步，未完待續。\n\n課後同儕反饋：「即使沒有觀看完整動畫，也像看過動畫一樣！能夠理解作者人生的經歷，很符合作品的核心精神。」",
+      "cover": "media/animation/marathon-4.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/animation/marathon-1.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/animation/marathon-2.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/animation/marathon-3.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/animation/marathon-4.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/animation/marathon-5.jpg",
+          "id": "",
+          "caption": ""
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "igem-promo",
+      "section": "animation",
+      "title": "iGEM Promotion video",
+      "date": "2023",
+      "medium": "影片攝影與後製",
+      "size": "2 分鐘",
+      "tags": [
+        "iGEM",
+        "影片",
+        "團體"
+      ],
+      "description": "16 人團隊，分工合作。負責影片主軸發想、拍攝指導、影音剪輯、影片內容後製、圖示設計、演員。\n影片主旨：點出大腸癌嚴重性並說明團隊研究成果（NanoCircDx）。\n以清華校園中的台積館大草皮取景，身穿實驗袍帶出團隊專業感。透過患者提問、醫生回答，讓觀眾身歷其境，同時解說大腸癌疾病並帶出產品設計理念。",
+      "cover": "",
+      "media": [
+        {
+          "type": "youtube",
+          "file": "",
+          "id": "nANLSSPik_4",
+          "caption": ""
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "igem-presentation",
+      "section": "animation",
+      "title": "iGEM Presentation video",
+      "date": "2023",
+      "medium": "影片攝影與後製",
+      "size": "15 分鐘",
+      "tags": [
+        "iGEM",
+        "影片",
+        "團體"
+      ],
+      "description": "16 人團隊，分工合作。負責影片主軸發想、拍攝指導、影音剪輯、影片內容後製、演員。\n影片主旨：詳細解說團隊研究之實驗流程及數據結果。\n以新聞頭條形式，說明團隊發明與貢獻。親自飾演棚內主播，邀請團隊成員解說研究理念，並以新聞連線投影方式，展出團隊成果與互動。",
+      "cover": "",
+      "media": [
+        {
+          "type": "youtube",
+          "file": "",
+          "id": "Zqe1fW0NY0E",
+          "caption": ""
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "unity-2d",
+      "section": "game-design",
+      "title": "Unity 2D 遊戲",
+      "date": "",
+      "medium": "Unity",
+      "size": "",
+      "tags": [
+        "2D 遊戲",
+        "平台跳躍"
+      ],
+      "description": "大學期間製作的 Unity 2D 遊戲，遊玩示意影片。",
+      "cover": "media/game/unity-2d.jpg",
+      "media": [
+        {
+          "type": "video",
+          "file": "media/game/unity-2d.mp4",
+          "id": "",
+          "caption": ""
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "pandas-adventure",
+      "section": "game-design",
+      "title": "Panda's Adventure：認識大腸癌及 NanoCircDx 冒險闖關遊戲",
+      "date": "2023",
+      "medium": "網頁遊戲設計",
+      "size": "草圖 2360 × 1640 px（Goodnotes）",
+      "tags": [
+        "iGEM",
+        "關卡設計",
+        "團體"
+      ],
+      "description": "7 人團隊，分工合作。負責團隊主視覺設計、發想遊戲創作概念、關卡設計、元素設計、繪製所有關卡草圖，帶領團隊內 7 人完成遊戲製作。\n成果：從 400 多人、40 多個國家中脫穎而出，獲得世界金牌。\n\n創作與設計理念：將學校吉祥物熊貓，與團隊的三個組別融入角色設計；以冒險為主軸，各個關卡象徵團隊在此競賽的心路歷程。從對大腸癌的初步認識、在實驗室裡埋頭摸索、面臨困難與挑戰，最後以台灣街景、101 代表建築及明媚的陽光，表述身為台灣團隊的驕傲與突破重圍，重見光明的意象。遊戲結尾呼應冒險的最終主旨：找尋到寶藏（NanoCircDx）！\n\n心形掌心的熊貓掌作為遊戲按鈕，讓使用者融入角色。",
+      "cover": "media/game/panda-6.jpg",
+      "media": [
+        {
+          "type": "image",
+          "file": "media/game/panda-1.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/game/panda-2.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/game/panda-3.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/game/panda-4.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/game/panda-5.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/game/panda-6.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/game/panda-7.jpg",
+          "id": "",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "file": "media/game/sketch-1.jpg",
+          "id": "",
+          "caption": "草圖：冒險地圖以台灣作為背景，突顯地理位置"
+        },
+        {
+          "type": "image",
+          "file": "media/game/sketch-2.jpg",
+          "id": "",
+          "caption": "草圖：以實驗室為發想，強調生物實驗的努力"
+        },
+        {
+          "type": "image",
+          "file": "media/game/sketch-3.jpg",
+          "id": "",
+          "caption": "草圖：遊玩說明融入生物、科技、實驗元素"
+        },
+        {
+          "type": "image",
+          "file": "media/game/sketch-4.jpg",
+          "id": "",
+          "caption": "草圖：以熔岩及火焰發想，象徵挑戰與困境"
+        },
+        {
+          "type": "image",
+          "file": "media/game/sketch-5.jpg",
+          "id": "",
+          "caption": "草圖：以腸道為初步發想，揭示大腸癌之關聯性"
+        },
+        {
+          "type": "image",
+          "file": "media/game/sketch-6.jpg",
+          "id": "",
+          "caption": "草圖：以靜謐的夜晚發想，表達平靜地度過困難"
+        }
+      ],
+      "links": [
+        {
+          "label": "網頁遊戲網址",
+          "url": "https://2023.igem.wiki/nthu-taiwan/home"
+        }
+      ]
+    }
+  ]
+}

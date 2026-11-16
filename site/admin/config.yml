@@ -1,0 +1,136 @@
+# ════════════════════════════════════════════════════════════
+#  線上編輯後台設定
+#  後台網址：https://你的網域/admin/
+#  登入方式：按「Sign in with Token」，貼上 GitHub 的存取權杖
+#  在後台按「儲存」= 把變更寫進 GitHub，網站約一分鐘後自動更新
+# ════════════════════════════════════════════════════════════
+backend:
+  name: github
+  repo: kiraboobee/portfolio
+  branch: main
+
+# 後台上傳的圖片、影片、模型檔會存到這個資料夾
+media_folder: site/media/uploads
+public_folder: /media/uploads
+
+site_url: https://kiraboobee.me
+locale: zh_Hant
+
+collections:
+  - name: content
+    label: 網站內容
+    files:
+      # ───────── 作品 ─────────
+      - name: works
+        label: 作品
+        file: site/content/works.json
+        format: json
+        fields:
+          - name: works
+            label: 作品清單（上下拖曳可以調整順序）
+            label_singular: 作品
+            widget: list
+            summary: "{{fields.title}}（{{fields.section}}）"
+            add_to_top: true
+            fields:
+              - { name: id, label: 英文代號（不可重複，例如 snow-walk）, widget: string }
+              - name: section
+                label: 放在哪一頁
+                widget: select
+                options:
+                  - { label: Painting, value: painting }
+                  - { label: 2D, value: 2d }
+                  - { label: 3D, value: 3d }
+                  - { label: Animation, value: animation }
+                  - { label: Game Design, value: game-design }
+              - { name: title, label: 作品名稱, widget: string }
+              - { name: date, label: 創作時間（例如 2026 或 2026-05）, widget: string, required: false }
+              - { name: medium, label: 媒材, widget: string, required: false }
+              - { name: size, label: 尺寸或長度, widget: string, required: false }
+              - { name: tags, label: 標籤, widget: list, required: false }
+              - { name: description, label: 文字說明, widget: text, required: false }
+              - { name: cover, label: 封面圖（作品牆上的縮圖）, widget: image, required: false }
+              - name: media
+                label: 作品內容（圖片、影片、3D 模型）
+                label_singular: 項目
+                widget: list
+                required: false
+                summary: "{{fields.type}} {{fields.caption}}"
+                fields:
+                  - name: type
+                    label: 種類
+                    widget: select
+                    default: image
+                    options:
+                      - { label: 圖片, value: image }
+                      - { label: 影片檔（mp4，25MB 以內）, value: video }
+                      - { label: YouTube 影片, value: youtube }
+                      - { label: Vimeo 影片, value: vimeo }
+                      - { label: 3D 模型檔（glb，25MB 以內）, value: model }
+                      - { label: Sketchfab 模型, value: sketchfab }
+                  - { name: file, label: 檔案（圖片、影片檔、模型檔才需要）, widget: file, required: false }
+                  - { name: id, label: 影片或模型 ID（YouTube、Vimeo、Sketchfab 才需要）, widget: string, required: false, hint: "YouTube 網址 youtu.be/ 後面那一串，例如 nANLSSPik_4" }
+                  - { name: caption, label: 圖說, widget: string, required: false }
+              - name: links
+                label: 外部連結
+                label_singular: 連結
+                widget: list
+                required: false
+                fields:
+                  - { name: label, label: 顯示文字, widget: string }
+                  - { name: url, label: 網址, widget: string }
+
+      # ───────── About、CV、Contact 與各頁文字 ─────────
+      - name: site
+        label: 個人資料與頁面文字
+        file: site/content/site.json
+        format: json
+        fields:
+          - { name: name, label: 顯示名稱, widget: string }
+          - { name: nickname, label: 暱稱, widget: string, required: false }
+          - { name: nameZh, label: 中文姓名, widget: string, required: false }
+          - { name: tagline, label: 首頁一句話介紹, widget: string, required: false }
+          - { name: hint, label: 首頁提示（電腦）, widget: string, required: false }
+          - { name: hintTouch, label: 首頁提示（手機）, widget: string, required: false }
+          - name: about
+            label: About
+            widget: object
+            fields:
+              - { name: portrait, label: 照片, widget: image, required: false }
+              - { name: paragraphs, label: 自我介紹（一段一格）, widget: list, field: { name: p, label: 段落, widget: text } }
+          - name: cv
+            label: CV
+            label_singular: 區塊
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { name: title, label: 區塊標題, widget: string }
+              - name: items
+                label: 內容
+                label_singular: 一筆
+                widget: list
+                summary: "{{fields.when}} {{fields.what}}"
+                fields:
+                  - { name: when, label: 時間, widget: string, required: false }
+                  - { name: what, label: 內容, widget: string }
+                  - { name: note, label: 補充, widget: string, required: false }
+          - name: contact
+            label: Contact
+            label_singular: 聯絡方式
+            widget: list
+            summary: "{{fields.k}}：{{fields.v}}"
+            fields:
+              - { name: k, label: 名稱（例如 Email）, widget: string }
+              - { name: v, label: 顯示文字, widget: string }
+              - { name: href, label: 連結（信箱請寫 mailto:信箱）, widget: string, required: false }
+          - name: sections
+            label: 導覽列與各頁簡介（代號與種類請不要改）
+            label_singular: 頁面
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - { name: slug, label: 代號, widget: string }
+              - { name: label, label: 導覽列名稱, widget: string }
+              - { name: type, label: 種類, widget: select, options: [about, cv, gallery, contact] }
+              - { name: intro, label: 頁面簡介, widget: string, required: false }
+              - { name: gap, label: 導覽列上方留空, widget: boolean, required: false }
