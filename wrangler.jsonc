@@ -1,0 +1,8 @@
+{
+  // Cloudflare 部署設定：告訴 Cloudflare「網站本體在 site/ 資料夾」
+  "name": "portfolio",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./site"
+  }
+}

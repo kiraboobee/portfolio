@@ -5,3 +5,5 @@
 docker-compose.yml
 .DS_Store
 Thumbs.db
+wrangler.jsonc
+.wrangler
