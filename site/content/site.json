@@ -5,70 +5,12 @@
   "tagline": "生物、醫學與科學概念的視覺化，以及繪畫、動畫與遊戲。",
   "hint": "動動滑鼠，企鵝寶寶會跟著你走。",
   "hintTouch": "點一下畫面，企鵝寶寶會走過去。",
-  "sections": [
-    {
-      "slug": "about",
-      "label": "About",
-      "type": "about",
-      "intro": "",
-      "gap": false
-    },
-    {
-      "slug": "cv",
-      "label": "CV",
-      "type": "cv",
-      "intro": "",
-      "gap": false
-    },
-    {
-      "slug": "painting",
-      "label": "Painting",
-      "type": "gallery",
-      "intro": "鉛筆、粉蠟筆等手繪媒材的生物藝術創作。",
-      "gap": true
-    },
-    {
-      "slug": "2d",
-      "label": "2D",
-      "type": "gallery",
-      "intro": "電繪、科學圖示、平面設計與攝影。",
-      "gap": false
-    },
-    {
-      "slug": "3d",
-      "label": "3D",
-      "type": "gallery",
-      "intro": "3D 建模、場景與分子結構視覺化。",
-      "gap": false
-    },
-    {
-      "slug": "animation",
-      "label": "Animation",
-      "type": "gallery",
-      "intro": "手繪動畫與影像作品。",
-      "gap": false
-    },
-    {
-      "slug": "game-design",
-      "label": "Game Design",
-      "type": "gallery",
-      "intro": "遊戲企劃、關卡設計與原型。",
-      "gap": false
-    },
-    {
-      "slug": "contact",
-      "label": "Contact",
-      "type": "contact",
-      "intro": "合作、委託或想聊聊作品，都歡迎來信。",
-      "gap": true
-    }
-  ],
   "about": {
     "portrait": "media/2d/penguin.jpg",
     "paragraphs": [
       "我是 Kira Huang（黃煜晏），也用 kiraboobee 這個名字創作。目前就讀國立臺北藝術大學新媒體藝術學系碩士班。",
       "之前就讀於國立清華大學生命科學系，並修習藝術跨領域學分學程，修習課程包含藝術史、數位策展之人文科技創新連結、藝術與社會、媒體藝術、設計繪畫、公共藝術賞析、歌劇欣賞等。",
-      "過往作品主要圍繞生物、醫學、科學概念的視覺化與數位化。大學期間也製作過 3D Blender 角色動畫教學、Unity 2D 遊戲，以及 Unreal Engine 地形與場景建構。",
+      "過往作品主要圍繞生物、醫學、科學概念的視覺化與數位化。大學期間製作過 3D Blender 角色動畫教學、Unity 2D 遊戲，以及 Unreal Engine 地形與場景建構。",
       "本身對遊戲及動畫有興趣，未來希望能朝 2D 動畫、3D 動畫、AI 生成動畫、互動影像、遊戲等領域發展。"
     ]
   },
@@ -309,6 +251,64 @@
       "k": "ArtStation",
       "v": "artstation.com/kiraboobee",
       "href": "https://www.artstation.com/kiraboobee"
+    }
+  ],
+  "sections": [
+    {
+      "slug": "about",
+      "label": "About",
+      "type": "about",
+      "intro": "",
+      "gap": false
+    },
+    {
+      "slug": "cv",
+      "label": "CV",
+      "type": "cv",
+      "intro": "",
+      "gap": false
+    },
+    {
+      "slug": "painting",
+      "label": "Painting",
+      "type": "gallery",
+      "intro": "鉛筆、粉蠟筆等手繪媒材的生物藝術創作。",
+      "gap": true
+    },
+    {
+      "slug": "2d",
+      "label": "2D",
+      "type": "gallery",
+      "intro": "電繪、科學圖示、平面設計與攝影。",
+      "gap": false
+    },
+    {
+      "slug": "3d",
+      "label": "3D",
+      "type": "gallery",
+      "intro": "3D 建模、場景與分子結構視覺化。",
+      "gap": false
+    },
+    {
+      "slug": "animation",
+      "label": "Animation",
+      "type": "gallery",
+      "intro": "手繪動畫與影像作品。",
+      "gap": false
+    },
+    {
+      "slug": "game-design",
+      "label": "Game Design",
+      "type": "gallery",
+      "intro": "遊戲企劃、關卡設計與原型。",
+      "gap": false
+    },
+    {
+      "slug": "contact",
+      "label": "Contact",
+      "type": "contact",
+      "intro": "合作、委託或想聊聊作品，都歡迎來信。",
+      "gap": true
     }
   ]
 }
