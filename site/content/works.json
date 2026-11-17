@@ -1,6 +1,28 @@
 {
   "works": [
     {
+      "id": "Undersea flying",
+      "section": "game-design",
+      "title": "Undersea flying",
+      "date": "2026-11",
+      "medium": "claude co-operation",
+      "size": "",
+      "tags": [
+        "claude",
+        "AI",
+        "online web game"
+      ],
+      "description": "This is a online web game test of fable5.2 referenced by  https://www.reddit.com/r/ClaudeAI/comments/1xw376f/i_built_a_swimmable_underwater_world_in_one_97_kb/?share_id=8pcpV5MFLitztHhn6Voll&utm_content=8&utm_medium=ios_app&utm_name=ioscss&utm_source=share&utm_term=1",
+      "cover": "/media/uploads/pasted-image-1794907816399.png",
+      "media": [],
+      "links": [
+        {
+          "label": "Link to play",
+          "url": "https://claude.ai/artifact/2EfcktVKFzkB5zdeCV7Buh"
+        }
+      ]
+    },
+    {
       "id": "radula",
       "section": "painting",
       "title": "螺之齒舌 Radula",
